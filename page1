@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Life and Death in Atlanta!</title>
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>Life and Death in Atlanta!</header>
+	<p class ="tagline">An Interactive Story</p>
+	<div id="content" onload="init()">	
+		<div id="page1">
+			<!-- main question/answer template -->
+				<div class="storyBox">
+						<p>It sounds like your alarm clock went off early again! You have to show off your invention to the Engineering Board at one of the nation's top aerospace corporations. You may feel more prepared if you get a little more sleep, but with that Atlanta traffic you don't want to risk being late. You have to get to Marietta from Union City...
+						</p>
+					<div class="choices">Choices:</div>
+					<div class="optionA">It's too early for this! Push that sleep button!</div>
+					<div class="optionB">Too much at risk here! Suck it up, crawl out of bed, and grab a quick coffee.</div>
+				</div>
+				<div class="buttons">
+					<div id="buttonA">
+						<a href="page1aTraffic">
+							<img src="./images/sleepButton.png">
+						</a>
+					</div>
+					<!-- To Page1a -->
+					<div id="buttonB">
+						<a href="page3bBraves">
+							<img src="./images/coffeeButton.png">
+						</a>
+					</div>
+					<!-- To Page3b -->	
+					</div>	
+		</div>
+
+
+		
+	</div>
+	<footer class="footer"></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

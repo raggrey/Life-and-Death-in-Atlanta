@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Life and Death in Atlanta!</title>
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>Life and Death in Atlanta!</header>
+	<p class ="tagline">An Interactive Story</p>
+	<div id="content">	
+		<div id="page2"> 
+			<div class="storyBox">						
+				<p>Good choice! With your extra time, you were able to check your phone concerning the strange things going on lately; people turning up missing, the accident at the GA Aquarium, the "alleged coverup" at the CDC... Who knows what to expect? It looks like in addition to the usual traffic, Atlanta's had to put new caution signs everywhere. But today is too important for distractions; which route do you want to take to work?
+				</p>
+				<div class="roadSigns">
+					<img src="./images/sharknado_sign.jpg">
+					<img src="./images/ufoXing2.png">
+					<img src="./images/zombieXing2.png">
+				</div>
+				<div class="choices">Choices:</div>
+				<div class="optionA">Take your odds with I-285, America's most dangerous interstate...
+				</div>
+				<div class="optionB">Take I-85. It might not be bumper-to-bumper today.
+				</div>	
+			</div>
+			<div class="buttons">
+					<div id="buttonA"><img src="./images/I285sign.png">
+						<a href="page3aShark"></a>
+					</div>
+				</a>
+				<!-- To page3a -->
+					<div id="buttonB"><img src="./images/I85sign.png">
+						<a href="page3bBraves"></a>
+					</div>
+				</a>
+				<!-- To page3b -->
+			</div>	
+		</div>			
+
+
+
+
+	</div>
+	<footer class="footer"></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

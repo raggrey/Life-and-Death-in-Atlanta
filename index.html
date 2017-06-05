@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Life and Death in Atlanta!</title>
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>Life and Death in Atlanta!</header>
+	<p class ="tagline">An Interactive Story</p>
+	<div id="content">	
+		<div id="page1" class="unhidden">
+			<!-- main question/answer template -->
+				<div class="storyBox">
+						<p>It sounds like your alarm clock went off early again! You have to show off your invention to the Engineering Board at one of the nation's top aerospace corporations. You may feel more prepared if you get a little more sleep, but with that Atlanta traffic you don't want to risk being late. You have to get to Marietta from Union City...
+						</p>
+					<div class="optionA">It's too early for this! Push that sleep button!</div>
+					<div class="optionB">Too much at risk here! Suck it up, crawl out of bed, and grab a quick coffee.</div>
+				</div>
+				<div class="buttons">
+					<div id="buttonA">
+						<a href="page1aTraffic">
+							<img src="./images/sleepButton.png"></div>
+						</a>
+					<!-- To Page1a -->
+					<div id="buttonB">
+						<a href="page3bBraves">
+							<img src="./images/coffeeButton.png"></div>
+						</a>
+					<!-- To Page3b -->
+				</div>	
+		</div>			
+<!-- Result Template -->
+		<div id="page1a" class="hidden">
+			<div class="storyBox">						
+				<p>Well, you were able to get some extra sleep, but you didn’t have time to check traffic before leaving; unfortunately I-285 is at a standstill. With the radio reporting strange occurrences all over the city, you’re a sitting duck for whatever may happen… 
+				</p>
+			<div class="resultWrapper">
+				<div class="continueButton"><img src="./images/continueBook.gif">
+				</div>
+			</div>				
+			</div>
+		</div>			
+<!--This is the end of one "page", which is the template for the rest of the pages(with small changes). The rest are display:none until activated by javascript or jquery selector. That way, only one "page" of the story should be shown at any given time." -->
+		<div id="page2" class="hidden"> <!--Please switch page1 and page2's classes until I get the javascript right-->
+			<div class="storyBox">						
+				<p>Good choice! With your extra time, you were able to check your phone concerning the strange things going on lately; people turning up missing, the accident at the GA Aquarium, the "alleged coverup" at the CDC... Who knows what to expect? It looks like in addition to the usual traffic, Atlanta's had to put new caution signs everywhere. But today is too important for distractions; which route do you want to take to work?
+				</p>
+				<div class="roadSigns">
+					<img src="./images/sharknado_sign.jpg">
+					<img src="./images/ufoXing2.png">
+					<img src="./images/zombieXing2.png">
+				</div>
+				<div class="optionA">Take I-85. It might not be bumper-to-bumper today.
+				</div>
+				<div class="optionB">Take your odds with I-285, America's most dangerous interstate...
+				</div>	
+			</div>
+			<div class="buttons">
+				<div id="buttonA"><img src="./images/I85sign.png"></div>
+				<!-- To Page3b -->
+				<div id="buttonB"><img src="./images/I285sign.png"></div>
+				<!-- To Page3a -->
+			</div>	
+		</div>			
+<!-- Loser template -->
+	<div id="page3a" class="hidden">
+		<div class="storyBox">						
+			<p>Sharknado ending 33%, car crash 33%, traffic 33% . add RESTART LINK button to storyboxes.
+			It looks like those escaped sharks from the aquarium have been whipped into a frenzy! Your car is surrounded and all is lost, but that's life
+			and death in Atlanta! 
+			</p>
+		<div class="lossWrapper">
+			<a href="intro.html"><img src="./images/restartRed.png">
+			</a>
+		</div>				
+		</div>
+	</div>			
+<!-- Page break 3b-->
+	<div id="page3b" class="hidden">
+		<div class="storyBox">						
+			<p>You’re finally on your way, but an overturned truck of foam Braves Tomahawks is slowing things down. At least you can use the time to go over your notes for your presentation later today. Take a brief moment to relax; you should get to work on time, but this increase in traffic certainly isn't doing your gas tank any favors.
+			</p>
+		<div class="resultWrapper">
+			<div class="continueButton"><img src="./images/continueBook.gif">
+				<!-- To Page 4 -->
+			</div>
+		</div>				
+		</div>
+	</div>			
+<!-- Page break 4-->
+	<div id="page4" class="hidden">
+		<div class="storyBox">						
+			<p>As you lock your car, you look forward. You’ve been an engineer here for years, and this towering building has never looked more imposing than right now. Let’s take a deep breath and calm down; as soon as Officer Dave runs you through the routine security check and scans your briefcase… WAIT, THE BRIEFCASE! If your invention gets found out or confiscated, the board meeting will be ruined! Before you get to the checkpoint, you quickly deconstruct it and throw the parts back in before meeting someone who doesn’t look like Dave…
+			</p>
+		<div class="resultWrapper">
+			<div class="continueButton"><img src="./images/continueBook.gif">
+				<!-- To Page 5 -->
+			</div>
+		</div>				
+		</div>
+	</div>			
+<!-- Page break 5 -->
+	<div id="page5" class="hidden">
+			<div class="storyBox">
+					<p>“Badge and ID, please(italics),” the officer says derisively. “And let’s have a look at that case, too.”  It looks like this new guy is taking his job pretty seriously. You don’t have time for this. With an unintentional sigh, you open the briefcase full of parts and papers with the knowledge he won’t understand them.
+					He squares his shoulders, “You want to explain what all this stuff is?”<br> You raise an eyebrow. Why the interest? Usually you can get through security checks like this with a lame joke. 
+					</p>
+				<div class="optionA">One day on the job and already throwing his weight around? Throw it right back at him like a judo move; tell him he doesn’t have the clearance for that information</div>
+				<div class="optionB">This guy is just playing the part; I'm sure he’s a softie, just like Officer Dave. You can't tell him anything he doesn’t need to know, but I’ll bet the first cute dog meme you can find will ease this tension.</div>
+				</div>
+			<div class="buttons">
+				<div id="buttonA"><img src="./images/Assertive1.png"></div>
+				<!-- To Page 5a -->
+				<div id="buttonB"><img src="./images/iPhone.png"></div>
+				<!-- To Page 5b-->
+			</div>	
+		</div>		
+<!-- Page break 5a -->
+	<div id="page5a" class="hidden">
+		<div class="storyBox">						
+			<p>You stand firm, “This is top-secret information, sir. If I were to say anything else, you’d probably never be heard from again.”<br>
+			Realizing he’s overstepped his bounds, he quickly looks down at his computer to finish checking your credentials. You stroll in with no more hassle, but there’s still the issue of your invention; it’s in pieces. Closing your office door behind you, remembering that one mistake in putting it together could mean your death...
+			</p>
+		<div class="resultWrapper">
+			<div id="buttonToPuzzle"><img src="./images/continueBook.gif">
+				<!-- To page 6, puzzle.html -->
+			</div>
+		</div>				
+		</div>
+	</div>			
+<!-- Page break 5b -->
+	<div id="page5b" class="hidden">
+		<div class="storyBox">						
+			<p>Ugh... Well, ok. Not the best idea, but it was worth a try. It looks like you’ve come across the one out of a million people who doesn’t like dogs. Stone-faced, the guard casually pockets your badge he says, "I don't konw what you think you're trying to pull, but I'm gonna have to call to have you escorted elsewhere until I(italics) clear you for entry." You’ll report him later, but his increased suspicion is causing him to call security.
+				<!-- Fix this part of the story -->
+			</p>
+		<div class="resultWrapper">
+			<div class="continueButton"><img src="./images/continueBook.gif">
+				<!-- To Page 5c -->
+			</div>
+		</div>				
+		</div>
+	</div>			
+<!-- Page break 5c -->
+	<div id="page5c" class="hidden">
+		<div class="storyBox">						
+			<p>This doesn’t look good at all. You know the company has multiple top-secret government projects, which explains the increased security. But all of this for an alleged “protocol breach?” You have no badge, your briefcase has been confiscated, and you seem to be the only one down here. The chances of you getting out of this holding area in time for the meeting (or the end of the day) seem pretty slim.   
+			</p>
+		<div class="lossWrapper">
+			<a href="intro.html"><img src="./images/restartRed.png">
+			</a>
+		</div>				
+		</div>
+	</div>			
+<!-- Page break -->
+
+
+
+
+	</div>
+	<footer class="footer"></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>

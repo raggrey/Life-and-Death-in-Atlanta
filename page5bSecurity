@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Life and Death in Atlanta!</title>
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>Life and Death in Atlanta!</header>
+	<p class ="tagline">An Interactive Story</p>
+	<div id="content">	
+		<div id="page5b">
+			<div class="storyBox">						
+				<p>Ugh... Well, ok. Not the best idea, but it was worth a try. It looks like you’ve come across the one out of a million people who doesn’t like dogs. Stone-faced, the guard casually pockets your badge and says, "I don't konw what you think you're trying to pull, but I'm gonna have you escorted elsewhere until I(italics) clear you for entry." You’ll report him later, but you've aroused enough suspiscion to get turned away or worse.
+					<!-- Fix this part of the story -->
+				</p>
+			<div class="resultWrapper">
+				<a href="page5cSecurity">
+					<div class="continueButton"><img src="./images/continueBook.gif">
+				</a>
+					<!-- To Page 5c -->
+				</div>
+			</div>				
+		</div>
+	</div>			
+
+
+
+
+	</div>
+	<footer class="footer"></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

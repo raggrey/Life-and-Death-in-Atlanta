@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Life and Death in Atlanta!</title>
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>Life and Death in Atlanta!</header>
+	<p class ="tagline">An Interactive Story</p>
+	<div id="content">	
+		<div id="page9c">
+			<div class="storyBox">						
+				<p>You manage to get it out of your briefcase and take out a few of them, but it looks like you weren’t the only one with weapons. 
+				</p>
+				<div class="lossWrapper">
+					<a href="page9aUFO"><img src="./images/restartRed.png">
+					</a>
+				</div> 			
+			</div>
+			<!-- To Page9a -->
+		</div>			
+
+
+
+
+	</div>
+	<footer class="footer"></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

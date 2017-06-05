@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Life and Death in Atlanta!</title>
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>Life and Death in Atlanta!</header>
+	<p class ="tagline">An Interactive Story</p>
+	<div id="content">	
+		<div id="page10">
+			<div class="storyBox">						
+				<p>Well, it’s been a tough day, but you’re finally at your front door. Before you walk in there’s already a list of things to do tomorrow morning. With half of what happened being classified and the other half being unbelievable, you might as well keep it to yourself. But you can still take solace in the fact that you made it through another day in Atl! 
+				</p>
+				<div class="lossWrapper">
+					<a href="intro.html"><img src="./images/restartRed.png">
+					</a>
+				</div> 			
+			</div>
+			<!-- To pageIntro -->
+		</div>			
+
+
+	</div>
+	<footer class="footer"></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

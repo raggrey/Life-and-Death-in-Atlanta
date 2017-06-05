@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Life and Death in Atlanta!</title>
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>Life and Death in Atlanta!</header>
+	<p class ="tagline">An Interactive Story</p>
+	<div id="content">	
+	<div id="page3b">
+		<div class="storyBox">						
+			<p>You’re finally on your way, but an overturned truck of foam Braves Tomahawks is slowing things down. At least you can use the time to go over your notes for your presentation later today. Take a brief moment to relax; you should get to work on time, but this increase in traffic certainly isn't doing your gas tank any favors.
+			</p>
+			<div class="resultWrapper">
+				<div class="continueButton">
+					<a href="page4building">
+						<img src="./images/continueBook.gif">
+					</a>
+					<!-- To page4 -->
+				</div>
+			</div>				
+		</div>
+	</div>			
+
+
+
+
+	</div>
+	<footer class="footer"></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

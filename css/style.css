@@ -1,0 +1,342 @@
+/*********************
+Temporary measures
+*********************/
+
+*{/*
+	border:2px solid red;*/
+}
+
+
+
+/********************
+Styles/Fonts
+********************/
+html{
+	height: 100%;
+
+}
+
+body{ 
+	min-height:100%;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	font-size: 6vh;
+	font-family: Fontdiner Swanky, sans-serif;
+	font-weight: 400;
+	width: 100%;
+	padding: 1% 0%;
+	margin: 0;
+	border-bottom: 5px solid red;
+	background-color: #FFC300;
+	display: flex;
+	justify-content: center;
+
+}
+
+#content{
+	background:url(../images/atlantaBackground.jpg);
+	background-size: cover;
+	flex: 1 0 auto;
+}
+
+/*Change backround:url with page-change jquery button.*/
+
+.footer{
+	height: 2.5vh;
+	width: 100%;
+	background: #BCBCBC;
+	margin-top: auto;
+}
+
+/*****************************
+Content/Styles
+*****************************/
+.navWrapper{
+	justify-content:flex-end;
+}
+
+p{
+	text-indent: 50px;
+}
+.tagline{
+	font-size: 2.5vh;
+	width: 100%;
+	background: #BCBCBC;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.storyBox, .introBox{
+	 width: 500px;
+	 border: 5px;
+	 margin: 0 auto;
+	 border-color: #000000;	 
+	 display:flex;
+	 flex-direction:column;
+	 align-items: center;
+}
+
+.storyBox p, .introBox p{
+	font-family: Open Sans, sans-serif;
+	font-weight: 500;
+	font-color: #000000;
+	background-color: rgba(128, 128, 128, 0.7);
+	margin-bottom: 8vh;
+}
+
+.optionA{
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	font-style: italic;
+	font-color: #000000;
+	background-color: rgba(118, 255, 191, 0.6);
+	margin-bottom: 3vh;
+	display: none;
+}
+
+.optionB{
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	font-style: italic;
+	font-color: #000000;
+	background-color: rgba(118, 199, 255, 0.5);
+	margin-bottom: 3vh;
+	display: none;
+}
+
+.choices{
+	background-color: #FFC300;
+	border:none;
+	border-radius: 12px;
+	color: gray;
+	padding: 10px 24px;
+	text-align: center;
+	display: inline-block;
+	font-family: Open Sans, Roboto Mono, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	cursor:pointer;
+
+}
+
+/******************
+Buttons/images
+******************/
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#startButton{
+
+	display: flex;
+	justify-content:center;
+	align-self:center;
+}
+
+.buttons{
+	display: flex;
+	justify-content: space-around;
+}
+
+#buttonA{
+	background-color: #76FFBF;
+	border: 5px;
+	border-radius: 15px;
+	box-shadow: black 5px 5px;
+	margin: 5px;
+	padding: 5px;
+	height: 75px;
+	width: 75px;
+	cursor: pointer;
+}
+
+#buttonB{
+	background-color: #76c7ff;
+	border: 5px;
+	border-radius: 15px;
+	box-shadow: black 5px 5px;
+	margin: 5px;
+	padding: 5px;
+	height: 75px;
+	width: 75px;
+	cursor: pointer;
+}
+
+.roadSigns{
+	background-color: none;
+	margin-bottom: 5px;
+	padding: 4px;
+ 	height: 120px;
+    width: 100px;
+    display: flex;
+    justify-content:space-around;
+
+}
+
+
+
+/*****************
+Loser page
+*****************/
+
+.lossWrapper{
+	height: 170px;
+	width: 170px;
+}
+.lossWrapper a{
+	cursor: pointer;
+
+}
+
+/***************
+Continue page
+***************/
+
+.resultWrapper{
+	font-family: ;
+	font-weight: ;
+	font-color:;
+	height: 170px;
+	width: 170px;
+}
+
+.continueButton{
+	/*conditional*/
+	cursor: pointer;
+
+}
+
+/**************
+Rules(for now)
+**************/
+.unhidden{
+	display:default;
+}
+
+.hidden{
+	display:none;
+}
+
+
+
+@media (max-width: 768px) {
+
+}
+/*************************
+Page Content I (Use javascript to switch these backgrounds to #content. Also assign buttons 
+to navigate pages and start animations and such)
+*************************/
+
+#pageIntro{
+/*	background:url(../images/atlantaBackground.jpg);*/
+	background-size: cover;
+}
+
+#page1{
+/*	background:url(../images/alarm4.png);*/
+	background-size: cover;
+}
+
+#page1a{
+	/*background:url(../images/I285_traffic.JPG);*/
+	background-size: cover;
+}
+
+#page2{
+/*	background:url(../images/mapToWork.png);*/
+	background-size: cover;
+}
+
+#page3a{
+	/*background:url(../images/Sharknado_Lose.jpg);*/
+	background-size: cover;
+}
+
+#page3b{
+	/*background:url(../images/tomahawk_accident.jpg);*/
+}
+
+#page4{
+	/*background:url(../images/LMBackground1.jpg);*/
+}
+
+#page5{
+	/*background:url(../images/securityCheck.jpg);*/
+}
+
+#page5a{/*
+	background:url(../images/assertiveBG.png);
+	background-color: ;*/
+}
+
+#page5b{
+	/*background:url(../images/securityFail.jpg);*/
+}
+
+#page5c{
+	/*background:url(../images/jailCell.jpg);*/
+}
+
+#page5a{
+
+}
+
+#page6{
+
+}
+
+#page7{
+
+}
+
+#page7a{
+
+}
+
+#page7b{
+
+}
+
+#page8{
+
+}
+
+#page8a{
+
+}
+
+#page9{
+
+}
+
+#page9a{
+
+}
+
+#page9b{
+
+}
+
+#page9c{
+
+}
+
+#page10{
+
+}
+
+/*************************
+Background Switch Classes
+*************************/

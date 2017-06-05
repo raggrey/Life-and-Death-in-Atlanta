@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Life and Death in Atlanta!</title>
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>Life and Death in Atlanta!</header>
+	<p class ="tagline">An Interactive Story</p>
+	<div id="content">	
+		<div id="page4">
+			<div class="storyBox">						
+				<p>As you lock your car, you look forward. You’ve been an engineer here for years, and this towering building has never looked more imposing than right now. Let’s take a deep breath and calm down; as soon as Officer Dave runs you through the routine security check and scans your briefcase… WAIT, THE BRIEFCASE! If your invention gets found out or confiscated, the board meeting will be ruined! Before you get to the checkpoint, you quickly deconstruct it and throw the parts back in before meeting someone who doesn’t look like Dave…
+				</p>
+			<div class="resultWrapper">
+				<a href="page5">
+					<div class="continueButton"><img src="./images/continueBook.gif">
+				</a>
+					<!-- To page5 -->
+				</div>
+			</div>				
+			</div>
+		</div>			
+
+
+
+
+	</div>
+	<footer class="footer"></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

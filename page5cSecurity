@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Life and Death in Atlanta!</title>
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>Life and Death in Atlanta!</header>
+	<p class ="tagline">An Interactive Story</p>
+	<div id="content">	
+		<div id="page5c">
+			<div class="storyBox">						
+				<p>This doesn’t look good at all. You know the company has multiple top-secret government projects, which explains the increased security. But all of this for an alleged “protocol breach?” You have no badge, your briefcase has been confiscated, and you seem to be the only one down here. The chances of you getting out of this holding area in time for the meeting (or the end of the day) seem pretty slim.   
+				</p>
+				<div class="lossWrapper">
+					<a href="page5"><img src="./images/restartRed.png">
+					</a>
+				</div>				
+			</div>
+		</div>			
+
+
+
+
+	</div>
+	<footer class="footer"></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Life and Death in Atlanta!</title>
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>Life and Death in Atlanta!</header>
+	<p class ="tagline">An Interactive Story</p>
+	<div id="content">	
+		<div id="page9a">
+				<div class="storyBox">
+						<p>While lost in thought, you get transported out of your car and into the spaceship that’s been following you for few miles. Instantly, you put yourself on-guard as one of the aliens starts to speak, “We mean no harm, ___________. We’ve been following you specifically, because you have come the closest in your species history to emulate our superior technology. Now that we have confirmed that it does work, we’ve decided your weapon is too dangerous to keep.
+						</p>
+					<div class="choices">Choices:</div>
+					<div class="optionA">Well, the Board wanted to turn your work of art into a deadly weapon. Maybe it’s for the best that you give it to the aliens instead. They don’t seem too bad…
+					</div>
+					<div class="optionB">Are they saying you can’t keep your Hairmaster 3000&trade;??? This powerful weapon may be the only leverage you have. Use it to commandeer the spacecraft!
+					</div>
+				</div>
+				<div class="buttons">
+					<div id="buttonA">
+						<a href="page9bUFO">
+							<img src="./images/handshake.png">
+						</a>	
+					</div>
+					<!-- To Page9b -->
+					<div id="buttonB">
+						<a href="page9cUFO">
+							<img src="./images/GunslingerFO4Button.png">
+						</a>	
+					</div>
+					<!-- To Page9c-->
+				</div>	
+		</div>		
+
+
+
+
+	</div>
+	<footer class="footer"></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Life and Death in Atlanta!</title>
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>Life and Death in Atlanta!</header>
+	<p class ="tagline">An Interactive Story</p>
+	<div id="content">	
+		<div id="page7">
+				<div class="storyBox">
+						<p>As you start to explain what miracles the Hairmaster 3000&trade; can do, Dr. Williams, who hasn’t yet fallen asleep, interrupts. “Um, from these schematics it seems like you’ve basically just taken the jet engine technology we develop here, and miniaturized it into a hair-dryer???”<br>
+						While technically true, you shake off the criticism. “It’s called the HairMASTER, sir. And trust me, it can do much more than that!” This challenge seems to get everyone’s attention. Half of them seem to even want to see it in action. Everyone is looking at you like you’re crazy and you have to win them over somehow…
+
+						</p>
+					<div class="choices">Choices:</div>
+					<div class="optionA">What better way to show faith in your design by giving yourself a new style in front of everyone? Use it on yourself!</div>
+					<div class="optionB">The other members may be paying attention now, but Williams is the one who needs convincing at this point. Choose him to test the product and change his mind.</div>
+					</div>
+				<div class="buttons">
+					<div id="buttonA">
+						<a href="page7aMeeting">
+							<img src="./images/volunteer.png">
+						</a>	
+					</div>
+					<!-- To page7a -->
+					<div id="buttonB">
+						<a href="page7bMeeting">
+							<img src="./images/volunteer2.png">
+						</a>	
+					</div>
+					<!-- To page7b-->
+				</div>	
+		</div>		
+
+
+
+
+	</div>
+	<footer class="footer"></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

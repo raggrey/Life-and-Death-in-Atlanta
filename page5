@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Life and Death in Atlanta!</title>
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>Life and Death in Atlanta!</header>
+	<p class ="tagline">An Interactive Story</p>
+	<div id="content">	
+		<div id="page5">
+				<div class="storyBox">
+						<p>“Badge and ID, <ins>please</ins>,” the officer says derisively. “And let’s have a look at that case, too.”  It looks like this new guy is taking his job pretty seriously. You don’t have time for this. With an unintentional sigh, you open the briefcase full of parts and papers with the knowledge he won’t understand them.
+						He squares his shoulders, “You want to explain what all this stuff is?”<br> You raise an eyebrow. Why the interest? Usually you can get through security checks like this with a lame joke. 
+						</p>
+					<div class="choices">Choices:</div>	
+					<div class="optionA">One day on the job and already throwing his weight around? Throw it right back at him like a judo move; tell him he doesn’t have the clearance for that information.</div>
+					<div class="optionB">This guy is just playing the part. You can't tell him anything he doesn’t need to know, but I’ll bet the first cute dog meme you can find will ease this tension.</div>
+					</div>
+				<div class="buttons">
+					<div id="buttonA">
+						<a href="page5aSecurity">
+							<img src="./images/Assertive1.png">
+						</a>
+					</div>
+					<!-- To Page 5a -->
+					<div id="buttonB">
+						<a href="page5bSecurity">
+							<img src="./images/iPhone.png">
+						</a>
+					</div>
+					<!-- To Page 5b-->
+				</div>	
+		</div>		
+
+
+
+
+	</div>
+	<footer class="footer"></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
