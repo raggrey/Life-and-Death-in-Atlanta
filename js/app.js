@@ -1,26 +1,11 @@
 $(document).ready(function(){
-
-// $("#buttonA").click(turnPg1a() {
-// 	console.log("the button works")
-
-// function(turnPg1a){
-// 	document.getElementByClassName("content").style.background = url(../images/alarm4.png);
-// }
+	// alert($('#alarm4').attr('id'));
 
 
-// });
-// Page1
+var backgroundName = $('body').attr('id')
 
-// $("#buttonA").click(function() {
-// 	console.log("the button works!") <--no syntax error found
-// });
-// ******************************
+	$('#content').css('background-image','url(./images/' + backgroundName + '.png)');
 
-// *************************************
-// $(#buttonA).click(function(){
-// 	$('cover').css(background:url(../images/alarm4.png))
-// });
-// ***********************************
 
 $('.choices').click(function(event){
 	event.preventDefault();

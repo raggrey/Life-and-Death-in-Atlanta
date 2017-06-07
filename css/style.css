@@ -40,7 +40,7 @@ header{
 }
 
 #content{
-	background:url(../images/atlantaBackground.jpg);
+	background-image: url(../images/atlantaBackground.png);
 	background-size: cover;
 	flex: 1 0 auto;
 }
