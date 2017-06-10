@@ -17,6 +17,8 @@ $('.choices').click(function(event){
 		$('.choices').hide();
 	}
 
+
+$('.buttons').addClass('animated bounce');
 // ************************************
 
 // function init() {
