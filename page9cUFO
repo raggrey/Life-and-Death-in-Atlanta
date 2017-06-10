@@ -7,13 +7,13 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
-<body id='ashesBG'>
-	<header>Life and Death in Atlanta!</header>
+<body id='fireyDeath'>
+	<header class='headerAni'>Life and Death in Atlanta!</header>
 	<p class ="tagline">An Interactive Story</p>
 	<div id="content">	
 		<div id="page9c">
 			<div class="storyBox">						
-				<p>You manage to get it out of your briefcase and take out a few of them, but it looks like you weren’t the only one with weapons. 
+				<p>You manage to get it out of your briefcase and take out a few of them, but it looks like you weren’t the only one with weapons... 
 				</p>
 				<div class="lossWrapper">
 					<a href="page9aUFO"><img src="./images/restartRed.png">

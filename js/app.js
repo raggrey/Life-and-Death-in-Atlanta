@@ -1,14 +1,13 @@
 $(document).ready(function(){
-	// alert($('#alarm4').attr('id'));
-// var visibility = 
+
+
+// *** Background Change ***
 
 var backgroundName = $('body').attr('id')
 
 	$('#content').css('background-image','url(./images/' + backgroundName + '.png)');
 
-
-
-// ***Button Choice Animation***
+// *** Button Choice Animation ***
 
 $('.choices').click(function(event){
 	event.preventDefault();
@@ -18,15 +17,24 @@ $('.choices').click(function(event){
 		$('.optionA').slideDown();
 		$('.optionB').slideDown();
 		$('.choices').hide();
-		$('.buttons').addClass('animated bounce');
+		$('.buttons').addClass('animated bounceInDown');
 		$('.buttons').css('visibility', 'visible');
 	}
 
+// *** UFO FadeIn pg9 ***
+
+$('#continueUFO').hover(function(){
+	$('.storyBox').fadeOut();
+	$('#image').fadeIn(3000);
+	$()
+});
+
+
+
+
 // ************************************
 
-// function init() {
-//   var pg1BG = 'changableBackgroudImage';
-//   document.body.style.background = 'url(../images/alarm4.jpg) no-repeat center center'
+
 // };
 
 });

@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 <body id="jailCell2">
-	<header>Life and Death in Atlanta!</header>
+	<header class='headerAni'>Life and Death in Atlanta!</header>
 	<p class ="tagline">An Interactive Story</p>
 	<div id="content">	
 		<div id="page5c">

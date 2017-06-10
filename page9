@@ -16,7 +16,7 @@
 				<p>I-285 is oddly deserted for this time of day, but it gives you time to think. Where did you go wrong with the design? Is weaponizing the Hairmaster 3000&trade; the best thing to do with it? That certainly wasn’t your intention. And what was up with that jerk, Williams? Is there any possible way things could be worse? (fade map to ufo bg)
 				</p>
 				<div class="resultWrapper">
-					<div class="continueButton">
+					<div id="continueUFO">
 						<a href="page9aUFO">
 							<img src="./images/continueBook.gif">
 						</a>
