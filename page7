@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="boardMeeting2">
 	<header>Life and Death in Atlanta!</header>
 	<p class ="tagline">An Interactive Story</p>
 	<div id="content">	

@@ -6,11 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="ashesBG">
 	<header>Life and Death in Atlanta!</header>
 	<p class ="tagline">An Interactive Story</p>
 	<div id="content">	
-		<div id="page#">
+		<div id="page7a">
 			<div class="storyBox">						
 				<p>You point the device at yourself, expecting to enjoy a shampoo, drying, and auto-combing feature when you activate the trigger. Unfortunately, the last thing you see is a flash of red through your eyelids. Perhaps those settings were too high after all...
 				</p>

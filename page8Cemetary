@@ -6,13 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id='L5map3'>
 	<header>Life and Death in Atlanta!</header>
 	<p class ="tagline">An Interactive Story</p>
 	<div id="content">	
 		<div id="page8">
 			<div class="storyBox">						
-				<p>You turn over your marvelous invention and text your friends to meet you at the Vortex Bar n’ Grill in Little 5 Points. If this gets you a promotion, there’s no better way to celebrate than with a giant cheeseburger! It looks like they’re STILL cleaning up I-85, so a lot of routes are blocked. Looking at your GPS, it seems like you can still get to Moreland Ave. by passing the Oakland Cemetary…
+				<p>You turn in your marvelous invention and text your friends to meet you at the Vortex Bar n’ Grill in Little 5 Points. If this gets you a promotion, there’s no better way to celebrate than with a giant cheeseburger! It looks like they’re STILL cleaning up I-85, so a lot of routes are blocked. Looking at your GPS, it seems like you can still get to Moreland Ave. if you pass by the Oakland Cemetary…
 				</p>
 				<div class="resultWrapper">
 					<div class="continueButton">

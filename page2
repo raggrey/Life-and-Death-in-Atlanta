@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id='mapToWork'>
 	<header>Life and Death in Atlanta!</header>
 	<p class ="tagline">An Interactive Story</p>
 	<div id="content">	
@@ -26,15 +26,17 @@
 				</div>	
 			</div>
 			<div class="buttons">
-					<div id="buttonA"><img src="./images/I285sign.png">
-						<a href="page3aShark"></a>
+					<div id="buttonA">
+						<a href="page3aShark">
+							<img src="./images/I285sign.png">
+						</a>
 					</div>
-				</a>
 				<!-- To page3a -->
-					<div id="buttonB"><img src="./images/I85sign.png">
-						<a href="page3bBraves"></a>
+					<div id="buttonB">
+						<a href="page3bBraves">
+							<img src="./images/I85sign.png">
+						</a>
 					</div>
-				</a>
 				<!-- To page3b -->
 			</div>	
 		</div>			

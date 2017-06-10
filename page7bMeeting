@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id='ashesBG'>
 	<header>Life and Death in Atlanta!</header>
 	<p class ="tagline">An Interactive Story</p>
 	<div id="content">	
@@ -15,6 +15,7 @@
 						<p>After getting the proper settings, you flip the switch and see a red glow coming from the Hairmaster 3000. In the next instant, instead of having hair to die for, Williams has turned into a pile of dust…<br> 
 						Understandibly bewildered, no one says anything for a moment. Then a voice comes from the end of the table, “Ha! That smug know-it-all got what was coming to him. Great presentation!” Everyone nods in mock agreement. “Now, _________, to be honest with you, it doesn’t seem like this will work as a hair product. However,” he pauses, “I’m sure this is something we can pitch to the Dept. of Defense, with all the zombies and aliens that are popping up. What do you say we send this to Reasearch?”
 						</p>
+					<div class="choices">Choices:</div>
 					<div class="optionA">So many mixed emotions! You never knew the Hairmaster 3000 was capable of such things. And who knows what the board will do once it’s out of your hands. It may be best to head home and think this over.
 					</div>
 					<div class="optionB">Well, the presentation didn’t go exactly as expected, but still a resounding success! This could make you a lot of money. And what a great story to tell your friends after work!

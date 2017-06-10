@@ -6,13 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id='securityFail'>
 	<header>Life and Death in Atlanta!</header>
 	<p class ="tagline">An Interactive Story</p>
 	<div id="content">	
 		<div id="page5b">
 			<div class="storyBox">						
-				<p>Ugh... Well, ok. Not the best idea, but it was worth a try. It looks like you’ve come across the one out of a million people who doesn’t like dogs. Stone-faced, the guard casually pockets your badge and says, "I don't konw what you think you're trying to pull, but I'm gonna have you escorted elsewhere until I(italics) clear you for entry." You’ll report him later, but you've aroused enough suspiscion to get turned away or worse.
+				<p>Ugh... Well, ok. Not the best idea, but it was worth a try. It looks like you’ve come across the one out of a million people who doesn’t like dogs. Stone-faced, the guard casually pockets your badge and says, "I don't know what you're up to, but <em>I'm</em> gonna have you escorted elsewhere until <em>I</em> clear you for entry." You’ll just have to report him later, but it looks like you've aroused enough suspiscion to get turned away or worse.
 					<!-- Fix this part of the story -->
 				</p>
 			<div class="resultWrapper">

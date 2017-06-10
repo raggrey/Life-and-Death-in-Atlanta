@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id='securityCheck'>
 	<header>Life and Death in Atlanta!</header>
 	<p class ="tagline">An Interactive Story</p>
 	<div id="content">	
@@ -16,7 +16,7 @@
 						He squares his shoulders, “You want to explain what all this stuff is?”<br> You raise an eyebrow. Why the interest? Usually you can get through security checks like this with a lame joke. 
 						</p>
 					<div class="choices">Choices:</div>	
-					<div class="optionA">One day on the job and already throwing his weight around? Throw it right back at him like a judo move; tell him he doesn’t have the clearance for that information.</div>
+					<div class="optionA">One day on the job and already throwing his weight around? Throw it right back at him like judo; tell him he doesn’t have the clearance for that information.</div>
 					<div class="optionB">This guy is just playing the part. You can't tell him anything he doesn’t need to know, but I’ll bet the first cute dog meme you can find will ease this tension.</div>
 					</div>
 				<div class="buttons">

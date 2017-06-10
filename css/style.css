@@ -42,6 +42,8 @@ header{
 #content{
 	background-image: url(../images/atlantaBackground.png);
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	flex: 1 0 auto;
 }
 
@@ -78,6 +80,7 @@ p{
 	 border: 5px;
 	 margin: 0 auto;
 	 border-color: #000000;	 
+	 padding: 5px;
 	 display:flex;
 	 flex-direction:column;
 	 align-items: center;
@@ -87,7 +90,9 @@ p{
 	font-family: Open Sans, sans-serif;
 	font-weight: 500;
 	font-color: #000000;
-	background-color: rgba(128, 128, 128, 0.7);
+	padding: 5px;
+	border: solid black 2px;
+	background-color: rgba(255, 255, 255, 0.6);
 	margin-bottom: 8vh;
 }
 
@@ -97,7 +102,9 @@ p{
 	font-size: 18px;
 	font-style: italic;
 	font-color: #000000;
+	border: solid black 1px;
 	background-color: rgba(118, 255, 191, 0.6);
+	padding: 5px;
 	margin-bottom: 3vh;
 	display: none;
 }
@@ -108,7 +115,9 @@ p{
 	font-size: 18px;
 	font-style: italic;
 	font-color: #000000;
+	border: solid black 1px;
 	background-color: rgba(118, 199, 255, 0.5);
+	padding: 5px;
 	margin-bottom: 3vh;
 	display: none;
 }
@@ -139,10 +148,12 @@ img {
 }
 
 #startButton{
-
+	height: 150px;
+	width: 150px;
 	display: flex;
 	justify-content:center;
 	align-self:center;
+	cursor: pointer;
 }
 
 .buttons{
@@ -250,7 +261,7 @@ to navigate pages and start animations and such)
 }
 
 #page1a{
-	/*background:url(../images/I285_traffic.JPG);*/
+	/*background:url(../images/I285_traffic.png);*/
 	background-size: cover;
 }
 

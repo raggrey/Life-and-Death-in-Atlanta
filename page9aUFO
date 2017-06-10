@@ -6,13 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id='aliens'>
 	<header>Life and Death in Atlanta!</header>
 	<p class ="tagline">An Interactive Story</p>
 	<div id="content">	
 		<div id="page9a">
 				<div class="storyBox">
-						<p>While lost in thought, you get transported out of your car and into the spaceship that’s been following you for few miles. Instantly, you put yourself on-guard as one of the aliens starts to speak, “We mean no harm, ___________. We’ve been following you specifically, because you have come the closest in your species history to emulate our superior technology. Now that we have confirmed that it does work, we’ve decided your weapon is too dangerous to keep.
+						<p>Wishing you had paid more attention to those signs, you get transported out of your car and into the spaceship that’s been following you for few miles. Instantly, you put yourself on-guard as one of the aliens starts to speak, “We mean no harm, ___________. We’ve been following you specifically, because you have come the closest in your species history to emulate our superior technology. Now that we have confirmed that it does work, we’ve decided your weapon is too dangerous to keep.
 						</p>
 					<div class="choices">Choices:</div>
 					<div class="optionA">Well, the Board wanted to turn your work of art into a deadly weapon. Maybe it’s for the best that you give it to the aliens instead. They don’t seem too bad…
