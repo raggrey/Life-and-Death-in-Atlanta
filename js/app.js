@@ -25,8 +25,8 @@ $('.choices').click(function(event){
 
 $('#continueUFO').hover(function(){
 	$('.storyBox').fadeOut();
-	$('#image').fadeIn(3000);
-	$()
+	$('#ufoDiv').fadeIn(3000);
+	$('audio')[0].play();
 });
 
 
