@@ -159,6 +159,7 @@ img {
 .buttons{
 	display: flex;
 	justify-content: space-around;
+	visibility: hidden;
 }
 
 #buttonA{
@@ -233,7 +234,7 @@ Continue page
 Rules(for now)
 **************/
 .unhidden{
-	display:default;
+	display:inline-block;
 }
 
 .hidden{

@@ -1,11 +1,14 @@
 $(document).ready(function(){
 	// alert($('#alarm4').attr('id'));
-
+// var visibility = 
 
 var backgroundName = $('body').attr('id')
 
 	$('#content').css('background-image','url(./images/' + backgroundName + '.png)');
 
+
+
+// ***Button Choice Animation***
 
 $('.choices').click(function(event){
 	event.preventDefault();
@@ -15,10 +18,10 @@ $('.choices').click(function(event){
 		$('.optionA').slideDown();
 		$('.optionB').slideDown();
 		$('.choices').hide();
+		$('.buttons').addClass('animated bounce');
+		$('.buttons').css('visibility', 'visible');
 	}
 
-
-$('.buttons').addClass('animated bounce');
 // ************************************
 
 // function init() {
