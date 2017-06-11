@@ -19,7 +19,11 @@
 					<div class="choices">Choices:</div>	
 					<div class="optionA">One day on the job and already throwing his weight around? Throw it right back at him like judo; tell him he doesn’t have the clearance for that information.</div>
 					<div class="optionB">This guy is just playing the part. You can't tell him anything he doesn’t need to know, but I’ll bet the first cute dog meme you can find will ease this tension.</div>
+					<div id='dogMeme'>
+						<img src="./images/dogMeme1.png">
 					</div>
+
+				</div>
 				<div class="buttons">
 					<div id="buttonA">
 						<a href="page5aSecurity">
@@ -28,9 +32,7 @@
 					</div>
 					<!-- To Page 5a -->
 
-					<div id='dogMeme'>
-						<img src="./images/dogMeme1.png">
-					</div>
+
 
 
 					<div id="buttonB5">
