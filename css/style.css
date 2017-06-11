@@ -154,6 +154,7 @@ img {
 	height: 150px;
 	width: 150px;
 	display: flex;
+	margin:0 auto;
 	justify-content:center;
 	align-self:center;
 	cursor: pointer;
@@ -220,9 +221,6 @@ Continue page
 ***************/
 
 .resultWrapper{
-/*	font-family: ;
-	font-weight: ;
-	font-color:;*/
 	height: 170px;
 	width: 170px;
 }
@@ -258,103 +256,6 @@ Page Content I (Use javascript to switch these backgrounds to #content. Also ass
 to navigate pages and start animations and such)
 *************************/
 
-#pageIntro{
-/*	background:url(../images/atlantaBackground.jpg);*/
-	background-size: cover;
-}
-
-#page1{
-/*	background:url(../images/alarm4.png);*/
-	background-size: cover;
-}
-
-#page1a{
-	/*background:url(../images/I285_traffic.png);*/
-	background-size: cover;
-}
-
-#page2{
-/*	background:url(../images/mapToWork.png);*/
-	background-size: cover;
-}
-
-#page3a{
-	/*background:url(../images/Sharknado_Lose.jpg);*/
-	background-size: cover;
-}
-
-#page3b{
-	/*background:url(../images/tomahawk_accident.jpg);*/
-}
-
-#page4{
-	/*background:url(../images/LMBackground1.jpg);*/
-}
-
-#page5{
-	/*background:url(../images/securityCheck.jpg);*/
-}
-
-#page5a{/*
-	background:url(../images/assertiveBG.png);
-	background-color: ;*/
-}
-
-#page5b{
-	/*background:url(../images/securityFail.jpg);*/
-}
-
-#page5c{
-	/*background:url(../images/jailCell.jpg);*/
-}
-
-#page5a{
-
-}
-
-#page6{
-
-}
-
-#page7{
-
-}
-
-#page7a{
-
-}
-
-#page7b{
-
-}
-
-#page8{
-
-}
-
-#page8a{
-
-}
-
-#page9{
-
-}
-
-#page9a{
-
-}
-
-#page9b{
-
-}
-
-#page9c{
-
-}
-
-#page10{
-
-}
 
 /*************************
 Animations
@@ -365,6 +266,10 @@ Animations
 	to {background-color: red;}
 }
 
+@keyframes flashstoryBox{
+	from {background-color: red
+	 }
+}
 /*Loser Pages*/
 .headerAni{
 	font-size: 6vh;
@@ -391,10 +296,6 @@ Animations
 	align-items: center;
 }
 
-#page9 p{
-
-}
-
 #ufoDiv{
 	display: none;
 }
@@ -405,3 +306,44 @@ Animations
 	cursor: pointer;
 
 }
+
+/*page7a*/
+
+/*#page5*/
+
+#dogMeme {
+	background-color: #e3e3e3;
+	border: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0,0,0,.75);
+	margin: 2px;
+	padding: 5px;
+	height: 200px;
+	width: 166px;
+}
+
+
+***********************
+/*Modal*/
+***********************
+
+.modal {
+	width: 355px;
+	max-width: 100%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.popup {
+
+}
+
+
+
+
+
+
+
+

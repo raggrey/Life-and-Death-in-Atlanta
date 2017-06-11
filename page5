@@ -27,6 +27,12 @@
 						</a>
 					</div>
 					<!-- To Page 5a -->
+
+					<div id='dogMeme'>
+						<img src="./images/dogMeme1.png">
+					</div>
+
+
 					<div id="buttonB">
 						<a href="page5bSecurity">
 							<img src="./images/iPhone.png">

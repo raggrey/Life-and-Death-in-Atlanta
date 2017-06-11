@@ -14,15 +14,13 @@
 		<div id="page9">
 			<div class="storyBox">						
 				
-				<p>I-285 is oddly deserted for this time of day, but it gives you time to think. Where did you go wrong with the design? Is weaponizing the Hairmaster 3000&trade; the best thing to do with it? That certainly wasn’t your intention. And what was up with that jerk, Williams? Is there any possible way things could be worse? (fade map to ufo bg)
+				<p>I-285 is oddly deserted tonight, but it gives you some space to think. Where did you go wrong with the design? Is weaponizing the Hairmaster 3000&trade; the best thing to do with it? That certainly wasn’t your intention. And what was up with that jerk, Williams, anyway?<br> Is there any way things could possibly be worse? 
 				</p> 
 				</div>
-
+				<!-- hidden ufo -->
 				<div id='ufoDiv'>
 					<img src="./images/abduction.png">
 				</div>
-
-				
 				<div class="resultWrapper">
 					<div id="continueUFO">
 						<a href="page9aUFO">

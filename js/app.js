@@ -17,7 +17,7 @@ $('.choices').click(function(event){
 		$('.optionA').slideDown();
 		$('.optionB').slideDown();
 		$('.choices').hide();
-		$('.buttons').addClass('animated bounceInDown');
+		$('.buttons').addClass('animated bounceInUp');
 		$('.buttons').css('visibility', 'visible');
 	}
 
@@ -29,7 +29,14 @@ $('#continueUFO').hover(function(){
 	$('audio')[0].play();
 });
 
-
+// *** Fail Sounds(in case autoplay fails) ***
+$('div.storyBox p').click(function(){ 
+	event.preventDefault();
+	$('audio')[0].play();
+})
+// function wakeUpNoise() {
+// 	console.log("the function works");
+// }
 
 
 // ************************************
