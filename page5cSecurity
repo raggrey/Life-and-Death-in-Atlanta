@@ -27,7 +27,7 @@
 
 
 	</div>
-	<audio>
+	<audio autoplay="autoplay">
 		<source src='./sounds/fail.wav'></source>
 	</audio>
 	<footer class="footer"></footer>

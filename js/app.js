@@ -29,6 +29,17 @@ $('#continueUFO').hover(function(){
 	$('audio')[0].play();
 });
 
+// *** Dog Meme animation pg5 ***
+
+$('#buttonB5').hover(function(){
+	$('.optionA').slideUp();
+	$('.optionB').slideUp();
+	$('#dogMeme').fadeIn();
+	$('audio')[0].play();
+});
+
+
+
 // *** Fail Sounds(in case autoplay fails) ***
 $('div.storyBox p').click(function(){ 
 	event.preventDefault();
