@@ -35,10 +35,7 @@
 					<!-- To Page3b -->	
 					</div>	
 		</div>
-		<!-- <h1 id='alarm4'></h1> -->
 	</div>
-
-
 	<audio autoplay="autoplay">
 		<source src='./sounds/ringing.wav'></source>
 	</audio>

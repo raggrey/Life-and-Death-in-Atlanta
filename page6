@@ -7,32 +7,34 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
-<body id='nightRoad3'>
+<body>
 	<header>Life and Death in Atlanta!</header>
 	<p class ="tagline">An Interactive Story</p>
 	<div id="content">	
-		<div id="page9">
-			<div class="storyBox">									
-				<p>I-285 is oddly deserted tonight, but it gives you some space to think. Where did you go wrong with the design? Is weaponizing the Hairmaster 3000&trade; the best thing to do with it? That certainly wasn’t your intention. And what was up with that jerk, Williams, anyway?<br> Is there any way things could possibly be worse? 
-				</p> 
+		<div id="page6">
+			<div class="storyBox">						
+				<p>Some Text.
+				</p>
+
+				<div class="pWrapper">
 				</div>
-				<!-- hidden ufo -->
-				<div id='ufoDiv'>
-					<img src="./images/abduction.png">
-				</div>
+
+
 				<div class="resultWrapper">
-					<div id="continueUFO">
-						<a href="page9aUFO">
+					<div class="continueButton">
+						<a href="pageName">
 							<img src="./images/continueBook.gif">
 						</a>
-						<!-- To Page9a -->
-					</div>				
+						<!-- To Page # -->
+					</div>
+				</div>				
 			</div>
 		</div>			
+
+
+
+
 	</div>
-	<audio>
-		<source src='./sounds/aliens.mp3'></source>
-	</audio>
 	<footer class="footer"></footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/app.js"></script>

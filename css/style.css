@@ -307,8 +307,6 @@ Animations
 
 }
 
-/*page7a*/
-
 /*#page5*/
 
 #dogMeme {
@@ -335,12 +333,18 @@ Animations
 	cursor: pointer;
 }
 
+/*page7a*/
 
 
 
+/*
+******************
+Puzzle
+*******************/
 
-
-
+.pWrapper{
+	
+}
 
 
 
