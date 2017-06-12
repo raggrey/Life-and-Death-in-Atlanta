@@ -13,8 +13,8 @@
 	<div id="content">	
 		<div id="page3a">
 			<div class="storyBox">						
-				<p>Sharknado ending
-				It looks like those escaped sharks from the aquarium have been whipped into a frenzy! They may have sounded like a rumor, but soon your car is totally surrounded by them! There's no escape now, but that's life
+				<p>
+				The rumors about the escaped sharks was actually true! You see them come closer, and soon your car is totally surrounded by them! There's no escape now, but that's life
 				and death in Atlanta! 
 				</p>
 				<div class="lossWrapper">
@@ -30,7 +30,7 @@
 	</div>
 
 	<audio autoplay="autoplay">
-		<source src='./sounds/sharkStorm.mp3'></source>
+		<source src='./sounds/fail.wav'></source>
 	</audio>
 	<footer class="footer"></footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

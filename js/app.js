@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-
 // *** Background Change ***
 
 var backgroundName = $('body').attr('id')
@@ -8,6 +7,7 @@ var backgroundName = $('body').attr('id')
 	$('#content').css('background-image','url(./images/' + backgroundName + '.png)');
 
 // *** Button Choice Animation ***
+// **(credit: animate.css by Daniel Eden)**
 
 $('.choices').click(function(event){
 	event.preventDefault();
@@ -41,18 +41,14 @@ $('#buttonB5').hover(function(){
 
 
 // *** Fail Sounds(in case autoplay fails) ***
+
 $('div.storyBox p').click(function(){ 
 	event.preventDefault();
 	$('audio')[0].play();
-})
-// function wakeUpNoise() {
-// 	console.log("the function works");
-// }
+});
 
+// *** Puzzle pg6 ***
+// **(credit: jqJigsawPuzzle by jfmdev)**
 
-// ************************************
-
-
-// };
 
 });

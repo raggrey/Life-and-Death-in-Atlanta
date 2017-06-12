@@ -75,7 +75,7 @@ p{
 	justify-content: center;
 }
 
-.storyBox, .introBox{
+.storyBox, .introBox {
 	 width: 60%;
 	 border: 5px;
 	 margin: 0 auto;
@@ -86,7 +86,7 @@ p{
 	 align-items: center;
 }
 
-.storyBox p, .introBox p{
+.storyBox p, .introBox p {
 	font-family: Open Sans, sans-serif;
 	font-weight: 500;
 	font-color: #000000;
@@ -342,9 +342,20 @@ Animations
 Puzzle
 *******************/
 
-.pWrapper{
-	
-}
+#puzzleComplete {
+	background-color: #FFC300;
+	margin: 20;
+	border:none;
+	border-radius: 12px;
+	color: gray;
+	padding: 10px 24px;
+	text-align: center;
+	display: inline-block;
+	font-family: Open Sans, Roboto Mono, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	cursor:pointer;
 
+}
 
 

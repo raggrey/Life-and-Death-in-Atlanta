@@ -1,42 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Life and Death in Atlanta!</title>
-	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-</head>
-<body>
-	<header>Life and Death in Atlanta!</header>
-	<p class ="tagline">An Interactive Story</p>
-	<div id="content">	
-		<div id="page6">
-			<div class="storyBox">						
-				<p>Some Text.
-				</p>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Life and Death in Atlanta!</title>
+            <meta http-equiv="Content-Language" content="en-GB"/>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+            <meta name="keywords" content=""/>
+            <meta name="description" content=""/>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400|Open+Sans:300,400,500,700|Roboto+Mono:200,400" rel="stylesheet">
 
-				<div class="pWrapper">
-				</div>
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="./css/jqJigsawPuzzle.min.css" type="text/css"/>
+            <link rel="stylesheet" href="./css/jquery-ui-1.8.22.custom.css" type="text/css"/>
+    
+            <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+            <script type="text/javascript" src="./js/jquery-ui-1.8.22.custom.min.js"></script>
+            <script type="text/javascript" src="./js/jqJigsawPuzzle.min.js"></script>
+            <script type="text/javascript">
+                jQuery(document).ready(function() {
+                    jqJigsawPuzzle.createPuzzleFromImage("#my_puzzle","big");
+                });
+            </script>
+    </head>
+    <body id='briefcaseVectorBG'>
+    <header>Life and Death in Atlanta!</header>
+    <p class ="tagline">An Interactive Story</p>
+        <div id="content">  
+            <div id="page6">
+                <div class="storyBox">                      
+                    <p>What a mess! It’s time to work quickly to put this back together, but you have to be careful. Just one wire in the wrong place could mean your death…
+                    </p>               
+                    <div id="puzzleComplete">
+                    <a href="page6a">
+                        Done!
+                    </a>
+                </div>
+                    <img id="my_puzzle" src="./images/hairMaster3k.png"/>
+                </div>
+ 
+                <!-- To Page 6a -->
+            </div>
 
 
-				<div class="resultWrapper">
-					<div class="continueButton">
-						<a href="pageName">
-							<img src="./images/continueBook.gif">
-						</a>
-						<!-- To Page # -->
-					</div>
-				</div>				
-			</div>
-		</div>			
-
-
-
-
-	</div>
-	<footer class="footer"></footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="js/app.js"></script>
-</body>
+        </div>
+    <script src="js/app.js"></script>
+    </body>
 </html>
