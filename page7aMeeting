@@ -22,9 +22,6 @@
 			</div>
 			<!-- To page7 -->
 		</div>			
-
-
-
 	</div>
 	<audio autoplay="autoplay">
 		<source src='./sounds/fail.wav'></source>

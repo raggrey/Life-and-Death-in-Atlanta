@@ -14,7 +14,7 @@
 			<div class="storyBox">						
 				<p>Congratulations! You’ve reconstructed the most innovative hair-styling mechanism of the 
 					century: The Hairmaster 3000! <br>
-                    By just pointing it at one’s head, you can give them any desired hairstyle! It’s time to rush down the hall and set up for the presentation. Nothing can go wrong now!
+                    Just by pointing it at one’s head, you can give them any desired hairstyle! It’s time to rush down the hall and set up for the presentation. Nothing can go wrong now!
                  </p>
 				<div class="puzzle">
 					<img src="./images/hairMaster3k.png" alt="Hairmaster3000 Puzzle">
@@ -30,7 +30,6 @@
 				</div>				
 			</div>
 		</div>			
-
 	</div>
 	<footer class="footer"></footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

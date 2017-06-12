@@ -13,7 +13,7 @@
 	<div id="content">	
 		<div id="page8">
 			<div class="storyBox">						
-				<p>You turn in your marvelous invention and text your friends to meet you at the Vortex Bar n’ Grill in Little 5 Points. If this gets you a promotion, there’s no better way to celebrate than with a giant cheeseburger! It looks like they’re STILL cleaning up I-85 though, so a lot of routes are still clogged up. Looking at your GPS, it seems like you can still get to Moreland Ave. if you pass by the Oakland Cemetary…
+				<p>You turn in your invention and text your friends to meet you at the Vortex Bar n’ Grill in Little 5 Points. If this gets you a promotion, drinks should be on you! It looks like they’re STILL cleaning up I-85 though, so a lot of routes are clogged up. Looking at your GPS, it seems like you can still get to Moreland Ave. if you pass by the Oakland Cemetary…
 				</p>
 				<div class="resultWrapper">
 					<div class="continueButton">
@@ -25,10 +25,6 @@
 				</div>				
 			</div>
 		</div>			
-
-
-
-
 	</div>
 	<footer class="footer"></footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

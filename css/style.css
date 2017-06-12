@@ -47,8 +47,6 @@ header{
 	flex: 1 0 auto;
 }
 
-/*Change backround:url with page-change jquery button.*/
-
 .footer{
 	height: 2.5vh;
 	width: 100%;
@@ -68,6 +66,7 @@ p{
 }
 .tagline{
 	font-size: 2.5vh;
+	font-family: Open Sans, sans-serif;
 	width: 100%;
 	background: #BCBCBC;
 	margin: 0;
@@ -231,16 +230,7 @@ Continue page
 
 }
 
-/**************
-Rules(for now)
-**************/
-.unhidden{
-	display:inline-block;
-}
 
-.hidden{
-	display:none;
-}
 
 
 
@@ -250,12 +240,18 @@ Rules(for now)
 	display: none;
 }
 
+#startButton{
+	height: 	150px;
+	width: 		150px;
+	display: flex;
+	margin:0 auto;
+	justify-content:center;
+	align-self:center;
+	cursor: pointer;
 }
-/*************************
-Page Content I (Use javascript to switch these backgrounds to #content. Also assign buttons 
-to navigate pages and start animations and such)
-*************************/
 
+
+}
 
 /*************************
 Animations
@@ -333,13 +329,9 @@ Animations
 	cursor: pointer;
 }
 
-/*page7a*/
-
-
-
 /*
 ******************
-Puzzle
+Puzzle pg6
 *******************/
 
 #puzzleComplete {

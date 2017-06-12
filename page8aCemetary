@@ -13,7 +13,7 @@
 	<div id="content">	
 		<div id="page8a">
 			<div class="storyBox">						
-				<p>It’s the one of those new road signs from earlier; if only you had time to fill up on gas morning! Your car comes to a complete stop near the cemetery.  You look outside your window to see zombies shuffling towards the vehicle. That (slightly) defective Hairmaster 3000 sure would've come in handy right now. They’re starting to rock your car and it’s only a matter of time before the zombies make their way in.
+				<p>You see one of the new hazard signs from earlier! If only you had time to fill up on gas morning! Your car comes to a complete stop near the cemetery.  You look outside your window to see zombies shuffling closer. That (slightly) defective Hairmaster 3000 sure would've come in handy right now. They’re starting to rock your car and it’s only a matter of time before the zombies make their way in.
 				</p>
 				<!-- Fix this paragraph -->
 				<div class="lossWrapper">
@@ -23,10 +23,6 @@
 			</div>
 			<!-- To Page 8a -->
 		</div>			
-
-
-
-
 	</div>
 	<audio autoplay="autoplay">
 		<source src='./sounds/fail.wav'></source>

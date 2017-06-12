@@ -13,7 +13,7 @@
 	<div id="content">	
 		<div id="page5c">
 			<div class="storyBox">						
-				<p>This doesn’t look good at all. You know the company has multiple top-secret government projects, which explains the increased security. But all of this for an alleged “protocol breach?” You have no badge, your briefcase has been confiscated, and you seem to be the only one down here. The chances of you getting out of this holding area in time for the meeting (or the end of the day) seem pretty slim.   
+				<p>This doesn’t look good at all. A company full of top-secret government projects explains the increased security, but all of this for a “protocol breach?” You have no badge, your briefcase is gone, and you are the only one down here. The chances of you getting out of this holding area in time for the meeting (or by the end of the day) seem pretty slim.   
 				</p>
 				<div class="lossWrapper">
 					<a href="page5">
@@ -22,10 +22,6 @@
 				</div>				
 			</div>
 		</div>			
-
-
-
-
 	</div>
 	<audio autoplay="autoplay">
 		<source src='./sounds/fail.wav'></source>

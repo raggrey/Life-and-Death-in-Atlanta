@@ -34,7 +34,7 @@ $('#continueUFO').hover(function(){
 $('#buttonB5').hover(function(){
 	$('.optionA').slideUp();
 	$('.optionB').slideUp();
-	$('#dogMeme').fadeIn(2000);
+	$('#dogMeme').fadeIn(1500);
 	$('audio')[0].play();
 });
 

@@ -13,21 +13,17 @@
 	<div id="content">	
 		<div id="page4">
 			<div class="storyBox">						
-				<p>As you lock your car, you look forward. You’ve been an engineer here for years, and this towering building has never looked more imposing than right now. Let’s take a deep breath and calm down; as soon as Officer Dave runs you through the routine security check and scans your briefcase… WAIT, THE BRIEFCASE! If your invention gets found out or confiscated, the board meeting will be ruined! Before you get to the checkpoint, you quickly deconstruct it and throw the parts back in before meeting someone who doesn’t look like Dave…
+				<p>As you lock your car, you look forward. You’ve been an engineer here for years, but this towering building has never looked more imposing than right now. There's no need to worry. As soon as Officer Dave runs you through a routine security check and scans your briefcase… WAIT, THE BRIEFCASE! If your invention gets found out or taken away, the board meeting will be ruined! Before you get to the checkpoint, you quickly deconstruct it and throw the parts back in before meeting someone who doesn’t look like Dave…
 				</p>
 			<div class="resultWrapper">
 				<a href="page5">
 					<div class="continueButton"><img src="./images/continueBook.gif">
 				</a>
-					<!-- To page5 -->
+					<!-- To page 5 -->
 				</div>
 			</div>				
 			</div>
 		</div>			
-
-
-
-
 	</div>
 	<footer class="footer"></footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -13,7 +13,7 @@
 	<div id="content">	
 		<div id="page2"> 
 			<div class="storyBox">						
-				<p>Good choice! With your extra time, you were able to check your phone concerning the strange things going on lately; people turning up missing, the accident at the GA Aquarium, the "alleged coverup" at the CDC... Who knows what to expect? It looks like in addition to the usual traffic, Atlanta's had to put new caution signs everywhere. But today is too important for distractions; which route do you want to take to work?
+				<p>Good choice! With your extra time, you were able to check your phone concerning the strange things going on lately; people turning up missing, the accident at the GA Aquarium, the "alleged coverup" at the CDC... Who knows what to expect? It looks like in addition to the usual traffic, the city has had to put up new caution signs everywhere. But today is too important for distractions; which route do you want to take?
 				</p>
 				<div class="roadSigns">
 					<img src="./images/sharknado_sign.jpg">
@@ -41,10 +41,6 @@
 				<!-- To page3b -->
 			</div>	
 		</div>			
-
-
-
-
 	</div>
 	<footer class="footer"></footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
