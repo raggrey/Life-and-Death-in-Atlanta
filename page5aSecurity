@@ -17,11 +17,11 @@
 				Realizing he’s overstepped his bounds, he quickly looks down at his computer to finish checking your credentials. You stroll in with no more hassle, but there’s still the issue of your invention; it’s in pieces. You close your office door behind you and open your briefcase.  
 				</p>
 			<div class="resultWrapper">
-				<div id="buttonToPuzzle">
+				<div class="continueButton">
 					<a href="page6">
 						<img src="./images/continueBook.gif">
 					</a>
-					<!-- To page6, puzzle.html -->
+					<!-- To page6 -->
 				</div>
 			</div>				
 			</div>

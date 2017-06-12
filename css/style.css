@@ -13,7 +13,6 @@ Styles/Fonts
 ********************/
 html{
 	height: 100%;
-
 }
 
 body{ 
@@ -36,7 +35,6 @@ header{
 	background-color: #FFC300;
 	display: flex;
 	justify-content: center;
-
 }
 
 #content{
@@ -54,6 +52,7 @@ header{
 	margin-top: auto;
 }
 
+
 /*****************************
 Content/Styles
 *****************************/
@@ -64,6 +63,7 @@ Content/Styles
 p{
 	text-indent: 50px;
 }
+
 .tagline{
 	font-size: 2.5vh;
 	font-family: Open Sans, sans-serif;
@@ -76,6 +76,7 @@ p{
 
 .storyBox, .introBox {
 	 width: 60%;
+	 font-size: 1em;
 	 border: 5px;
 	 margin: 0 auto;
 	 border-color: #000000;	 
@@ -139,10 +140,10 @@ p{
 
 }
 
+
 /******************
 Buttons/images
 ******************/
-
 
 img {
     max-width: 100%;
@@ -215,6 +216,7 @@ Loser page
 
 }
 
+
 /***************
 Continue page
 ***************/
@@ -225,33 +227,11 @@ Continue page
 }
 
 .continueButton{
-	/*conditional*/
 	cursor: pointer;
-
+	height: 150px;
+	width: 150px;
 }
 
-
-
-
-
-@media (max-width: 768px) {
-
-.tagline{
-	display: none;
-}
-
-#startButton{
-	height: 	150px;
-	width: 		150px;
-	display: flex;
-	margin:0 auto;
-	justify-content:center;
-	align-self:center;
-	cursor: pointer;
-}
-
-
-}
 
 /*************************
 Animations
@@ -262,10 +242,6 @@ Animations
 	to {background-color: red;}
 }
 
-@keyframes flashstoryBox{
-	from {background-color: red
-	 }
-}
 /*Loser Pages*/
 .headerAni{
 	font-size: 6vh;
@@ -280,7 +256,7 @@ Animations
 	justify-content: center;
 
 	animation-name: lossPage;
-	animation-duration: 3s;
+	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
@@ -329,6 +305,7 @@ Animations
 	cursor: pointer;
 }
 
+
 /*
 ******************
 Puzzle pg6
@@ -349,5 +326,68 @@ Puzzle pg6
 	cursor:pointer;
 
 }
+
+
+/**********************
+Responsiveness (unable to remove 'position:absolute' property from puzzle frame)
+**********************/
+
+@media (max-width: 568px) {
+
+header{
+	font-size: 4vh;
+}
+
+.headerAni{
+	font-size: 4vh;
+}
+
+.tagline{
+	display: none;
+}
+
+
+.storyBox, .introBox {
+	 width: 80%;
+}
+
+.storyBox p, .introBox p {
+	font-size: .7em;
+
+}
+
+.optionA {
+	font-size: .5em;
+}
+
+.optionB {
+	font-size: .5em;
+}
+
+#startButton{
+	height: 	100px;
+	width: 		100px;
+}
+
+
+.lossWrapper{
+	height: 170px;
+	width: 170px;
+}
+
+.roadSigns{
+ 	height: 100px;
+    width: 83px;
+
+}
+
+.continueButton, #continueUFO{
+	height: 100px;
+	width: 100px;
+	margin:0 auto;
+}
+
+}
+
 
 

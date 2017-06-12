@@ -17,7 +17,8 @@
 				</p>
 			<div class="resultWrapper">
 				<a href="page5">
-					<div class="continueButton"><img src="./images/continueBook.gif">
+					<div class="continueButton">
+						<img src="./images/continueBook.gif">
 				</a>
 					<!-- To page 5 -->
 				</div>
