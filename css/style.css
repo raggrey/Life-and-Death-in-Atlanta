@@ -311,6 +311,10 @@ Animations
 Puzzle pg6
 *******************/
 
+/*#page6a .storyBox p{
+	margin-bottom: ;
+}*/
+
 #puzzleComplete {
 	background-color: #FFC300;
 	margin: 20;
